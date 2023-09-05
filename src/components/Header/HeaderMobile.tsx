@@ -121,7 +121,7 @@ const HeaderMobile: React.FC<HeaderMobileProps> = ({
                   <Image
                     borderRadius="full"
                     boxSize="40px"
-                    src="/assets/images/logo.png" // Replace with your image URL
+                    src="/assets/images/logo.png"
                     alt="Web Developer"
                     marginRight="1rem"
                   />

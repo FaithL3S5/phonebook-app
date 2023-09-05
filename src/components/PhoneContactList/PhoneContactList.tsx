@@ -28,6 +28,7 @@ import {
   GetContactListResponse,
   Contact,
 } from "../../interfaces/GetContactListResponse";
+import AppShortcutIcon from "@mui/icons-material/AppShortcut";
 
 interface PhoneContactListProps {
   searchValue: string;
@@ -336,23 +337,22 @@ const PhoneContactList: React.FC<PhoneContactListProps> = ({
         <Box flexGrow={1}>
           <Card borderRadius="3xl" marginBottom="1rem" bgColor="gray.900">
             <CardBody>
-              <Flex direction="column" width="100%">
-                <Flex alignItems="center">
-                  <Avatar
-                    size="sm"
-                    name="F"
-                    bg="gray.800"
-                    marginRight="1rem"
-                    fontWeight="bold"
-                    color="white"
-                  />
-                  <Flex direction="column" alignItems="start" flex="1">
-                    <Text fontSize="sm" color="white" fontWeight="semibold">
-                      A Simple Phonebook App
-                    </Text>
-                  </Flex>
+              <Center>
+                <IconButton
+                  aria-label="App Logo"
+                  icon={<AppShortcutIcon />}
+                  borderRadius="full"
+                  boxSize="40px"
+                  color="white"
+                  bgColor="gray.900"
+                  cursor="default"
+                />
+                <Flex direction="column" alignItems="start" flex="1">
+                  <Text fontSize="sm" color="white" fontWeight="semibold">
+                    A Simple Phonebook App
+                  </Text>
                 </Flex>
-              </Flex>
+              </Center>
             </CardBody>
           </Card>
 
