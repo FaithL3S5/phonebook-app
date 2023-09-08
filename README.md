@@ -2,6 +2,9 @@
 ## Description
 
 Faith's Phonebook App is a simple yet functional application that allows users to manage their contacts efficiently. The application is built using React and integrates with Apollo Client for GraphQL queries and mutations. The application is styled using the Chakra UI library and follows a dark theme as the initial color mode.
+
+Checkout the Figma design here: https://www.figma.com/file/7MsqqtcnFbi00j2kv04akY/Phonebook-App?type=design&mode=design&t=RB8oKmhwVze9dGSA-1
+
 ## Installation
 
 To set up the project locally, follow these steps:
